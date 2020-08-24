@@ -7,15 +7,18 @@ To allow an easier data manipulation in Python and R, I merged the text and the 
 
 ## Analysis
 To make sure to have all the needed packages, you can recreate the environment provided in gender.yml.
-The main packages needed for the analysis are NLTK, spacy and gensim.
+The main packages needed for the analysis are NLTK, spacy, gensim and pyLDAvis.
 
 The following techniques have been tried:
 - Topic modelling with LDA
+The topics extracted can be visualized with the package pyLDAvis which allows to create an interactive plots to navigate through the topics. An example can be seen below (in the jupyter notebook on github this visualization is not rendered but you should be able to visualize it on your device)
 ![alt text](https://github.com/ilariabonavita/Collective_gender_narratives/blob/master/img/topic_modeling_lda.png)
 
 - Sentiment analysis
 - Word clouds generation
 - Entity analysis to extract noun-adjectives pairs of interest (e.g. adjectives related to the word "woman").
 
+## Conclusion
+Analysing the quotes for the narratives on gender perspectives with quantitative methods can offer new insights to the excellent qualitative analysis carried on in the study. Topic modelling seems to confirm that family, childcare, education and work are central themes of the narratives. Sentiment analysis shows that there seems not to be a significative difference between men and women in the polarity of the sentiment contained in their speeches. The entity analysis allows to identify in the texts some attributes typically associated with women ('empathetic', 'weaker', 'fragile','insulted','silly',etc.) as opposed to those associated with men ('important', 'confident', 'paternalistic', 'venturesome', 'aggressive') althogh deeper analysis and human check on the text is needed.
 ## Note
 This is a work in progress. For any request, doubt or suggestion please reach out with me on bonavitailaria@gmail.com
