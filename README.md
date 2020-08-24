@@ -16,3 +16,6 @@ The following techniques have been tried:
 - Sentiment analysis
 - Word clouds generation
 - Entity analysis to extract noun-adjectives pairs of interest (e.g. adjectives related to the word "woman").
+
+## Note
+This is a work in progress. For any request, doubt or suggestion please reach out with me on bonavitailaria@gmail.com
