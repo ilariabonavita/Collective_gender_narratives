@@ -11,7 +11,7 @@ The main packages needed for the analysis are NLTK, spacy and gensim.
 
 The following techniques have been tried:
 - Topic modelling with LDA
-![alt text](http://img/topic_modeling_lda.png)
+![alt text](https://github.com/ilariabonavita/Collective_gender_narratives/blob/master/img/topic_modeling_lda.png)
 
 - Sentiment analysis
 - Word clouds generation
